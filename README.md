@@ -3,17 +3,17 @@
 Монтаж вертикальных роликов для Reels и Shorts с ИИ-агентом (Codex, Claude Code). Агенту говоришь, что нужно,
 а он режет по словам, ставит субтитры, звуки и переходы. Всё на ffmpeg и Whisper, работает локально на Mac с M1–M4.
 
-**Инструкция с примерами:** [docs/index.html](docs/index.html) (локально: `open docs/index.html`).
+**Инструкция с примерами:** https://vito2005.github.io/reels-kit/ (или локально: `open docs/index.html`).
 
 ## Установка
 
 ```bash
-git clone git@github.com:vito2005/reels-kit.git ~/reels-kit
+git clone https://github.com/vito2005/reels-kit.git ~/reels-kit
 cd ~/reels-kit && ./install.sh
 ```
 
-Дополнительно, по желанию: `./install.sh sfx denoise` (поиск звуков, шумодав), `./install.sh face` (замена лица),
-`./install.sh voice` (голос персонажа).
+Ставит всё сразу: ffmpeg, yt-dlp, локальный Whisper, поиск звуков, шумодав, замену лица (FaceFusion) и голос
+персонажа (F5-TTS, Demucs). Это ~8 ГБ и 20–40 минут. Только основное (~2 ГБ) — `./install.sh lite`.
 
 ## Как работать
 

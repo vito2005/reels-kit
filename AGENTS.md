@@ -3,7 +3,8 @@
 Инструкция для ИИ-агента (Codex, Claude Code). Отвечать по-русски. Всё на ffmpeg + Whisper, главный инструмент —
 `tools/edit.py` (формат `cuts.json` — в его шапке, пример — `examples/cuts-example.json`).
 
-Python — только из окружения репо: `.venv/bin/python tools/edit.py …` (ставит `./install.sh`). Команды писать
+Python — только из окружения репо: `.venv/bin/python tools/edit.py …`. `./install.sh` ставит всё: это окружение,
+FaceFusion в `~/tools/facefusion` и F5-TTS с Demucs в `~/tools/f5tts`. Если чего-то не хватает — запустить его ещё раз. Команды писать
 полностью, без переменных-алиасов.
 
 ## Папки
@@ -145,7 +146,7 @@ Python — только из окружения репо: `.venv/bin/python tool
 1080×1920, 30 fps, H.264 + AAC, SDR bt709, `+faststart`. Мастер для загрузки: `EDIT_CRF=14` для `render` и
 `EDIT_CRF=15` для `burn` → `<ролик>/upload/*-HQ.mp4`: обычный CRF на тёмных кадрах даёт ступеньки после пережатия.
 
-## Замена лица — FaceFusion (`./install.sh face`)
+## Замена лица — FaceFusion (`~/tools/facefusion`)
 
 Фото лица — `<ролик>/faces/`, 4–6 штук анфас и 3/4. AV1 с YouTube сначала перегнать в H.264. Пробу — на 10 с.
 ```bash
@@ -159,7 +160,7 @@ cd ~/tools/facefusion && .venv/bin/python facefusion.py headless-run -s <пап�
 первый запуск качает модели. Мелькание бровей — `tools/face/deflicker.py до.mp4 после.mp4 out.mp4 "<планы>" 5 15`
 питоном FaceFusion. Проверять глазами: 12 кадров подряд крупно, метрики врут.
 
-## Голос персонажа — Demucs + F5-TTS (`./install.sh voice`)
+## Голос персонажа — Demucs + F5-TTS (`~/tools/f5tts`)
 
 - Отделить голос от музыки: `~/tools/f5tts/.venv/bin/python -m demucs --two-stems=vocals -n htdemucs_ft -d cpu сцена.wav`.
 - Новая фраза голосом персонажа: `~/tools/f5tts/.venv/bin/python tools/voice/f5say.py образец.wav "текст образца"

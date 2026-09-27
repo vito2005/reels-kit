@@ -100,7 +100,7 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--line)
   <header>
     <h1 class="brand">reels<span>kit</span></h1>
     <p class="lede">Монтаж вертикальных роликов для Reels и Shorts силами ИИ-агента: ему говоришь, что нужно, он режет по словам, ставит субтитры, звуки и переходы.
-      <small>Работает на Mac с M1–M4. Агент — Codex или Claude Code. Всё на ffmpeg и Whisper, расшифровка локальная и бесплатная.</small></p>
+      <small>Работает на Mac с M1–M4. Агент — Codex или Claude Code. Всё на ffmpeg и Whisper, расшифровка локальная и бесплатная. Код: <a href="https://github.com/vito2005/reels-kit">github.com/vito2005/reels-kit</a></small></p>
   </header>
 
   <section id="install">
@@ -108,15 +108,10 @@ footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--line)
     <ol class="steps">
       <li><div>
         <h3>Скачать проект и запустить установщик</h3>
-        <div class="cmd"><button class="copy" type="button">Копировать</button><pre>git clone git@github.com:vito2005/reels-kit.git ~/reels-kit
+        <div class="cmd"><button class="copy" type="button">Копировать</button><pre>git clone https://github.com/vito2005/reels-kit.git ~/reels-kit
 cd ~/reels-kit && ./install.sh</pre></div>
-        <p class="muted">Поставит ffmpeg, yt-dlp, Whisper и Python-окружение. Около 10 минут, если попросит — ввести пароль от мака.</p>
-      </div></li>
-      <li><div>
-        <h3>Добавить тяжёлое, если нужно</h3>
-        <div class="cmd"><button class="copy" type="button">Копировать</button><pre>./install.sh sfx denoise   # поиск звуков, шумодав
-./install.sh face          # замена лица
-./install.sh voice         # голос персонажа</pre></div>
+        <p class="muted">Ставит всё сразу: ffmpeg, yt-dlp, локальный Whisper, поиск звуков, шумодав, замену лица и голос персонажа. Около 8 ГБ и 20–40 минут. Если попросит — ввести пароль от мака. В конце печатает список с галочками: где крестик, там установщик нужно запустить ещё раз.</p>
+        <p class="muted">Нужно только основное (монтаж и субтитры, ~2 ГБ) — <code>./install.sh lite</code>.</p>
       </div></li>
       <li><div>
         <h3>Открыть папку в Codex</h3>
@@ -134,6 +129,9 @@ cd ~/reels-kit && ./install.sh</pre></div>
       <div class="prompt">Поставь вжух на каждую склейку и ба-дум-тсс после последней фразы.</div>
       <div class="prompt">Смонтируй день по часам из этих восьми клипов под музыку, время на каждом кадре.</div>
       <div class="prompt">В субтитрах «как у этот журнал» — исправь на «в этот журнал» и перешей.</div>
+      <div class="prompt">Запись тихая и шумит, телефон лежал далеко. Почисти звук и выровняй голоса.</div>
+      <div class="prompt">Замени лицо героя в этой сцене на моё, фото лежат в faces/. Сначала пробу на 10 секунд.</div>
+      <div class="prompt">Скажи голосом героя «Я вернулся за вами» и вставь вместо его реплики на 0:32.</div>
     </div>
     <p class="note">Готовый файл агент кладёт в папку ролика. Смотреть лучше с телефона: так видно, что субтитры не закрыты кнопками Reels.</p>
   </section>
@@ -190,8 +188,8 @@ cd ~/reels-kit && ./install.sh</pre></div>
       <div class="tool"><span class="tag">sfx/ · 159 звуков</span><h3>Мем-звуки с поиском</h3><p>Вжухи, удары, провал, смех зала. Поиск по описанию: «cartoon boing» находит нужный.</p></div>
       <div class="tool"><span class="tag">denoise</span><h3>Шумодав и выравнивание</h3><p>Для записей, где телефон лежит далеко: убирает шум, тихие голоса подтягивает к громким.</p></div>
       <div class="tool"><span class="tag">pitch.py</span><h3>Кто говорит</h3><p>По высоте голоса отличает ребёнка от взрослого — для субтитров с разными говорящими.</p></div>
-      <div class="tool"><span class="tag">FaceFusion</span><h3>Замена лица</h3><p>Своё лицо на героя сцены из фильма по 4–6 фото. Около 5 кадров в секунду на M4.</p></div>
-      <div class="tool"><span class="tag">Demucs · F5-TTS</span><h3>Голос персонажа</h3><p>Отделить голос от музыки и произнести новую фразу голосом героя по 10 секундам образца.</p></div>
+      <div class="tool"><span class="tag">FaceFusion</span><h3>Замена лица</h3><p>Своё лицо на героя сцены из фильма по 4–6 фото анфас и в три четверти. Около 5 кадров в секунду на M4, при первой замене скачиваются модели.</p></div>
+      <div class="tool"><span class="tag">Demucs · F5-TTS</span><h3>Голос персонажа</h3><p>Отделить голос от музыки и произнести новую фразу голосом героя по 6–10 секундам образца. Несколько вариантов на выбор, выбирать на слух.</p></div>
       <div class="tool"><span class="tag">HDR → SDR</span><h3>Цвета с айфона</h3><p>Клипы iPhone в HDR не выцветают при перекодировании, это делается само.</p></div>
       <div class="tool"><span class="tag">−14 LUFS</span><h3>Громкость как в ленте</h3><p>Каждый ролик приводится к уровню Instagram и YouTube, записи с телефона не тонут.</p></div>
     </div>

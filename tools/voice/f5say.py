@@ -12,13 +12,14 @@ from pathlib import Path
 
 import torch
 from f5_tts.api import F5TTS
+from huggingface_hub import hf_hub_download
 
-CKPT = Path.home() / "tools/f5tts/ckpt"
+REPO = "Misha24-10/F5-TTS_RUSSIAN"   # модель скачивает install.sh, здесь берётся из кэша HuggingFace
 ref, ref_text, text, out = sys.argv[1:5]
 seeds = int(sys.argv[5]) if len(sys.argv) > 5 else 2
 dev = "mps" if torch.backends.mps.is_available() else "cpu"
-tts = F5TTS(model="F5TTS_v1_Base", ckpt_file=str(CKPT / "model_last_inference.safetensors"),
-            vocab_file=str(CKPT / "vocab.txt"), device=dev)
+tts = F5TTS(model="F5TTS_v1_Base", ckpt_file=hf_hub_download(REPO, "F5TTS_v1_Base_v2/model_last_inference.safetensors"),
+            vocab_file=hf_hub_download(REPO, "F5TTS_v1_Base/vocab.txt"), device=dev)
 out = Path(out)
 for seed in range(1, seeds + 1):
     dst = out.with_name(f"{out.stem}-{seed}{out.suffix}")
