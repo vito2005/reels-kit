@@ -1,0 +1,638 @@
+{
+ "SFX_19312-Kids-Small-Group-Laughing.mp3": {
+  "lang": "en",
+  "text": "laughing You"
+ },
+ "SFX_Alarm-Clock.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Anime-Wow.mp3": {
+  "lang": "en",
+  "text": "Wow!"
+ },
+ "SFX_Aww.mp3": {
+  "lang": "en",
+  "text": "Awwww"
+ },
+ "SFX_Aye.mp3": {
+  "lang": "en",
+  "text": "Hey!"
+ },
+ "SFX_Badum-Tssss.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Ball-Bouncing.mp3": {
+  "lang": "en",
+  "text": "Oi, oi, oi, oi."
+ },
+ "SFX_Bass-Boosted.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Bit-Happy-Nation_08.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_Booing-Crowd.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Bottle-Cork.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Brodyquest.mp3": {
+  "lang": "en",
+  "text": "I I I"
+ },
+ "SFX_Camera-Shutter.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_Car-Horn.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Cartoon-Accent.mp3": {
+  "lang": "ko",
+  "text": "다음 영상에서 만나요."
+ },
+ "SFX_Cartoon-Running.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Cell-Phone-Ringing.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Censor.mp3": {
+  "lang": "en",
+  "text": "Oh"
+ },
+ "SFX_Cinematic-Whoosh.wav": {
+  "lang": "en",
+  "text": "Transcription by CastingWords"
+ },
+ "SFX_Clapping-Effect.mp3": {
+  "lang": "en",
+  "text": "you"
+ },
+ "SFX_Clapping.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_Correct-Answer.mp3": {
+  "lang": "ja",
+  "text": "おわり"
+ },
+ "SFX_Crowd-Booing.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Daaamn.mp3": {
+  "lang": "en",
+  "text": "Ewww!"
+ },
+ "SFX_Deep-Cinematic-Bass-Drum-Impact.mp3": {
+  "lang": "en",
+  "text": "I Thank you."
+ },
+ "SFX_Denied.mp3": {
+  "lang": "en",
+  "text": "Denied!"
+ },
+ "SFX_Derp.mp3": {
+  "lang": "en",
+  "text": "ir"
+ },
+ "SFX_Ding.mp3": {
+  "lang": "ru",
+  "text": "Продолжение следует..."
+ },
+ "SFX_Dip-Dip-Potato-Chip.mp3": {
+  "lang": "en",
+  "text": "Dip, dip, potato chip, dip, dip, potato chip, dip, dip, potato chip, dip, dip, dip, potato chip, dip, dip, potato chip, dip, dip, potato chip, dip, dip,"
+ },
+ "SFX_Door-Bell.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_Door-Knocking-Effect.mp3": {
+  "lang": "en",
+  "text": "I promise you we're here."
+ },
+ "SFX_Drop-1.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Drop.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Drum-Roll.mp3": {
+  "lang": "ru",
+  "text": "Продолжение следует..."
+ },
+ "SFX_Drumroll.mp3": {
+  "lang": "ru",
+  "text": "Продолжение следует..."
+ },
+ "SFX_Dun-Dun-Dun-2.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Dun-Dun-Dun.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Eagle-Sound.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Explosion.wav": {
+  "lang": "en",
+  "text": "I promise you we're here. Thank you."
+ },
+ "SFX_Fail-1.mp3": {
+  "lang": "en",
+  "text": "Boop Boop Boop Boop Boop Boop"
+ },
+ "SFX_Fail-2.mp3": {
+  "lang": "en",
+  "text": "What, what, what, what, what?"
+ },
+ "SFX_Falling.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Fart-1.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Fart-2.mp3": {
+  "lang": "en",
+  "text": "Oh"
+ },
+ "SFX_Filter-Sweep.mp3": {
+  "lang": "id",
+  "text": "Terima kasih."
+ },
+ "SFX_Flashback.mp3": {
+  "lang": "ru",
+  "text": "Субтитры создавал DimaTorzok"
+ },
+ "SFX_Fluffing-A-Duck-Kevin-Macleod.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_Fool.mp3": {
+  "lang": "en",
+  "text": "I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you"
+ },
+ "SFX_Funny-Effect-1.mp3": {
+  "lang": "ja",
+  "text": "ご視聴ありがとうございました"
+ },
+ "SFX_Funny-Effect-10.mp3": {
+  "lang": "en",
+  "text": "Boo!"
+ },
+ "SFX_Funny-Effect-2.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Funny-Effect-3.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_Funny-Effect-4.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Funny-Effect-5.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_Funny-Effect-6.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Funny-Effect-7.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Funny-Effect-8.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_Funny-Effect-9.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Funny-Laughing-1.mp3": {
+  "lang": "en",
+  "text": "I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you"
+ },
+ "SFX_Funny-Laughing-2.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Funny-Laughing-3.mp3": {
+  "lang": "en",
+  "text": "I promise you we're here."
+ },
+ "SFX_Funny-Sleeping-Effect.mp3": {
+  "lang": "en",
+  "text": "!"
+ },
+ "SFX_Funny-Sneeze.mp3": {
+  "lang": "en",
+  "text": "Ah-choo!"
+ },
+ "SFX_Gas-Fire-Swoosh.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Glass-Breaking.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Glass-Breaking.wav": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Golden-Swoosh.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Hallelujah-Chorus.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_He-Needs-Some-Milk.mp3": {
+  "lang": "en",
+  "text": "He needs some milk. He needs some milk."
+ },
+ "SFX_Heart-Beat.mp3": {
+  "lang": "en",
+  "text": "I Thank you."
+ },
+ "SFX_High-Fast-Swoosh.mp3": {
+  "lang": "en",
+  "text": "you"
+ },
+ "SFX_Horn-1.mp3": {
+  "lang": "en",
+  "text": "Ah"
+ },
+ "SFX_Horn-2.mp3": {
+  "lang": "en",
+  "text": ". You"
+ },
+ "SFX_Horn-3.mp3": {
+  "lang": "en",
+  "text": ". Thank you."
+ },
+ "SFX_Illuminati.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_Investigations-Kevin-Macleod.mp3": {
+  "lang": "en",
+  "text": "I I I I I I I"
+ },
+ "SFX_Iridocyclitis.mp3": {
+  "lang": "en",
+  "text": "Iridocytitis."
+ },
+ "SFX_It-S-Just-A-Prank-Bro.mp3": {
+  "lang": "en",
+  "text": "I'm joking! STOP! STOP! STOP! STOP! STOP! STOP! I'm the prank! STOP! STOP! STOP!"
+ },
+ "SFX_Jingle-Bells.mp3": {
+  "lang": "en",
+  "text": ". All right."
+ },
+ "SFX_Jump-Super-Mario.mp3": {
+  "lang": "en",
+  "text": "Oh"
+ },
+ "SFX_Just-Do-It.mp3": {
+  "lang": "en",
+  "text": "Do it! Just..."
+ },
+ "SFX_Kids-Cheering-2.mp3": {
+  "lang": "en",
+  "text": "Hooray!!! Thank you."
+ },
+ "SFX_Kids-Cheering.mp3": {
+  "lang": "en",
+  "text": "Hooray!!!"
+ },
+ "SFX_Let-S-Get-Ready-To-Rumble.mp3": {
+  "lang": "en",
+  "text": "Let's get ready to rumble!"
+ },
+ "SFX_Long-Suspense-1.mp3": {
+  "lang": "ru",
+  "text": "Продолжение следует..."
+ },
+ "SFX_Long-Suspense-2.mp3": {
+  "lang": "en",
+  "text": ". . . ."
+ },
+ "SFX_Long-Suspense-3.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Long-Suspense-4.mp3": {
+  "lang": "ru",
+  "text": "Редактор субтитров А.Семкин Корректор А.Егорова"
+ },
+ "SFX_Look-At-This-Dude.mp3": {
+  "lang": "en",
+  "text": "Bruh, look at this dude. Wait till you see the... No, no, no, no. Look at the top of his head. Look at his lips."
+ },
+ "SFX_Low-Fly.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Man-Screaming-1.mp3": {
+  "lang": "en",
+  "text": "Aaaaah!!! Thank you."
+ },
+ "SFX_Merry-Go-Kevin-Macleod.mp3": {
+  "lang": "en",
+  "text": "Thank you very much."
+ },
+ "SFX_Monkey-Spining-Monkeys-Kevin-Macleod.mp3": {
+  "lang": "en",
+  "text": "I I"
+ },
+ "SFX_Most-Used-Effects-1.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_Most-Used-Effects-2.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_Most-Used-Effects-3.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Most-Used-Effects-4.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Mouse-Click.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_No-God-Please-No.mp3": {
+  "lang": "en",
+  "text": "GOD! NO! GOD, PLEASE, NO! NO! NO! NOOOOOOO!"
+ },
+ "SFX_Oh-Hello-There.mp3": {
+  "lang": "en",
+  "text": "Oh, hello here!"
+ },
+ "SFX_Ooohhh.mp3": {
+  "lang": "en",
+  "text": "Wow!"
+ },
+ "SFX_Panic-Suspense.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_Plane-Effect.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Punch-1.mp3": {
+  "lang": "en",
+  "text": "Yeah"
+ },
+ "SFX_Punch-2.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Punch.mp3": {
+  "lang": "en",
+  "text": "you"
+ },
+ "SFX_Quack-Sound.mp3": {
+  "lang": "en",
+  "text": "Hooray! Hooray!"
+ },
+ "SFX_Reactionchildren-Ar04-79-5.wav": {
+  "lang": "en",
+  "text": "Wow!"
+ },
+ "SFX_Reactioncrowd-Ar02-34-1.wav": {
+  "lang": "en",
+  "text": "Whoa!"
+ },
+ "SFX_Reactioncrowd-Ar04-12-1.wav": {
+  "lang": "en",
+  "text": "Awww."
+ },
+ "SFX_Reverse-Riser-03-Nice.mp3": {
+  "lang": "en",
+  "text": ". Thank you."
+ },
+ "SFX_Reverse-Riser-04-Train.mp3": {
+  "lang": "en",
+  "text": "Transcribed by ESO, translated by —"
+ },
+ "SFX_Rocket-Effect.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Rubber-Duck.mp3": {
+  "lang": "en",
+  "text": "F-"
+ },
+ "SFX_Run.mp3": {
+  "lang": "en",
+  "text": "Run"
+ },
+ "SFX_Sad-Effect.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho"
+ },
+ "SFX_Sad-Romance.mp3": {
+  "lang": "zh",
+  "text": "字幕志愿者 杨茜茜"
+ },
+ "SFX_Scary-High-Zing.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_School-Bell.mp3": {
+  "lang": "en",
+  "text": ". . . ."
+ },
+ "SFX_Shocked-Hd.mp3": {
+  "lang": "en",
+  "text": "Thank you."
+ },
+ "SFX_Slap.mp3": {
+  "lang": "en",
+  "text": "I promise you we're here."
+ },
+ "SFX_Slow-Reverb-Swoosh.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Space-Ship-Fly-By.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Space-Ship-Woosh.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Space-Woosh.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Speed-Swoosh.mp3": {
+  "lang": "en",
+  "text": "Transcription by CastingWords"
+ },
+ "SFX_Splat-2.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Splat.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Static-Swoosh.mp3": {
+  "lang": "en",
+  "text": ". Thank you."
+ },
+ "SFX_Steve-Death.mp3": {
+  "lang": "en",
+  "text": "Oh"
+ },
+ "SFX_String-Effect.mp3": {
+  "lang": "en",
+  "text": "I promise you we're here."
+ },
+ "SFX_Stutter-Fly-By.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Stutter-Swish.mp3": {
+  "lang": "is",
+  "text": "FKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKKK"
+ },
+ "SFX_Stutter-Woosh.mp3": {
+  "lang": "en",
+  "text": "Transcription by CastingWords"
+ },
+ "SFX_Surprise-Mother-Fcker.mp3": {
+  "lang": "en",
+  "text": "Surprise motherfucker!"
+ },
+ "SFX_Suspense-2.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Suspense-3.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Suspense.mp3": {
+  "lang": "en",
+  "text": "I I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you, I promise you"
+ },
+ "SFX_Swish5.wav": {
+  "lang": "en",
+  "text": "I promise you we're here."
+ },
+ "SFX_Taking-Photos.mp3": {
+  "lang": "ja",
+  "text": "任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何剣任何�"
+ },
+ "SFX_Tape-Rewind.mp3": {
+  "lang": "en",
+  "text": ". . ."
+ },
+ "SFX_The-Builder.mp3": {
+  "lang": "en",
+  "text": "I I love you. I love you."
+ },
+ "SFX_Thick-Wipe-Phazed.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Thick-Wipe.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Ting-1.mp3": {
+  "lang": "en",
+  "text": "Now"
+ },
+ "SFX_Ting-2.mp3": {
+  "lang": "en",
+  "text": "! I promise you, I promise you, I promise you, I promise you, I promise you, I promise you,"
+ },
+ "SFX_Torpedo.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_Troll-Kids.mp3": {
+  "lang": "en",
+  "text": "Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho Ho"
+ },
+ "SFX_Turntable-Scratch.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Wait-A-Minute.mp3": {
+  "lang": "en",
+  "text": "Wait a minute! Who are you?"
+ },
+ "SFX_Waka-Waka-Pakman.mp3": {
+  "lang": "en",
+  "text": "I"
+ },
+ "SFX_What-The-Hell.mp3": {
+  "lang": "en",
+  "text": "What the hell?!"
+ },
+ "SFX_Whoosh.mp3": {
+  "lang": "en",
+  "text": "you"
+ },
+ "SFX_Why-Are-You-Running.mp3": {
+  "lang": "en",
+  "text": "Why are you running? Why are you running?"
+ },
+ "SFX_Window-Error-Mlg.mp3": {
+  "lang": "en",
+  "text": ". . . ."
+ },
+ "SFX_Wrong-Answer.mp3": {
+  "lang": "en",
+  "text": "You"
+ },
+ "SFX_Wrong-Buzzer.mp3": {
+  "lang": "en",
+  "text": "."
+ },
+ "SFX_Yeet.mp3": {
+  "lang": "en",
+  "text": "IYEYEYEYE"
+ },
+ "SFX_Yoloo.mp3": {
+  "lang": "en",
+  "text": "YOLO!"
+ }
+}

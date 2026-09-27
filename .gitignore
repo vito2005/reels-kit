@@ -1,0 +1,17 @@
+# видео, звук и всё тяжёлое — только локально
+*.mov
+*.MOV
+*.mp4
+*.MP4
+*.m4a
+*.wav
+!sfx/**/*.wav
+!docs/media/*.mp4
+*/work/
+*/origin/
+*/upload/
+tx/
+.venv/
+.env
+.DS_Store
+tools/facedetect

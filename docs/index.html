@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>reels-kit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@500;700&family=Golos+Text:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap">
+<style>
+:root {
+  --bg: #f1f2f4;
+  --surface: #ffffff;
+  --ink: #16181d;
+  --muted: #5d636e;
+  --line: #d9dce2;
+  --accent: #b9603a;
+  --accent-ink: #ffffff;
+  --code-bg: #e7e9ed;
+  --yellow: #f6e409;
+  --display: "Jost", "Futura", "Avenir Next", system-ui, sans-serif;
+  --body: "Golos Text", -apple-system, "Segoe UI", system-ui, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #121418; --surface: #1b1e24; --ink: #eceef2; --muted: #9aa0ab;
+    --line: #2c3038; --accent: #d67a52; --accent-ink: #16181d; --code-bg: #23262d;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #121418; --surface: #1b1e24; --ink: #eceef2; --muted: #9aa0ab;
+  --line: #2c3038; --accent: #d67a52; --accent-ink: #16181d; --code-bg: #23262d;
+}
+* { box-sizing: border-box; }
+body {
+  background: var(--bg); color: var(--ink); font: 400 16px/1.55 var(--body);
+  padding-inline: 16px; padding-block: 0 64px;
+}
+.wrap { max-width: 980px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1fr); gap: 56px; }
+header { padding-top: 40px; display: grid; gap: 14px; }
+.brand { font: 700 clamp(40px, 8vw, 68px)/1 var(--display); letter-spacing: -0.02em; margin: 0; }
+.brand span { background: var(--accent); color: var(--accent-ink); padding: 0 0.18em; border-radius: 0.14em; }
+.lede { font-size: 19px; max-width: 60ch; margin: 0; color: var(--ink); }
+.lede small { display: block; color: var(--muted); font-size: 15px; margin-top: 6px; }
+h2 { font: 700 28px/1.15 var(--display); margin: 0; text-wrap: balance; }
+h3 { font: 600 17px/1.3 var(--body); margin: 0; }
+p { margin: 0; max-width: 65ch; }
+.muted { color: var(--muted); }
+section { display: grid; grid-template-columns: minmax(0, 1fr); gap: 20px; }
+code { font: 500 0.88em var(--mono); background: var(--code-bg); padding: 0.1em 0.35em; border-radius: 4px; }
+.cmd { position: relative; background: var(--code-bg); border-radius: 10px; padding: 14px 16px; overflow-x: auto; }
+.cmd pre { margin: 0; font: 400 14px/1.6 var(--mono); white-space: pre; padding-right: 72px; }
+.copy {
+  position: absolute; top: 8px; right: 8px; font: 500 13px var(--body); border: 1px solid var(--line);
+  background: var(--surface); color: var(--ink); border-radius: 6px; padding: 4px 10px; cursor: pointer;
+}
+.copy:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+a { color: var(--accent); }
+.steps { display: grid; gap: 14px; counter-reset: s; margin: 0; padding: 0; list-style: none; }
+.steps li { display: grid; grid-template-columns: 36px 1fr; gap: 12px; align-items: start; }
+.steps li::before {
+  counter-increment: s; content: counter(s); font: 700 18px/36px var(--display); text-align: center;
+  width: 36px; height: 36px; border-radius: 50%; border: 2px solid var(--accent); color: var(--accent);
+}
+.steps li > div { display: grid; gap: 8px; padding-top: 5px; min-width: 0; }
+.prompts { display: grid; gap: 10px; }
+.prompt {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 14px 14px 14px 4px;
+  padding: 12px 16px; max-width: 62ch;
+}
+.demos { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 28px 20px; }
+figure { margin: 0; display: grid; gap: 10px; align-content: start; }
+.phone {
+  aspect-ratio: 9 / 16; width: 100%; max-width: 100%; border-radius: 22px; overflow: hidden;
+  background: #000; border: 6px solid var(--ink);
+}
+.phone video { width: 100%; height: 100%; object-fit: cover; display: block; }
+figcaption { display: grid; gap: 4px; }
+figcaption p { font-size: 15px; color: var(--muted); }
+.tag { font: 500 12px var(--mono); color: var(--accent); letter-spacing: 0.02em; }
+.styles img { width: 100%; height: auto; border-radius: 12px; border: 1px solid var(--line); display: block; }
+.styles dl { display: grid; grid-template-columns: 34px 1fr; gap: 6px 10px; margin: 0; font-size: 15px; }
+.styles dt { font: 500 14px var(--mono); color: var(--accent); }
+.styles dd { margin: 0; }
+.tools { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 14px; }
+.tool { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; display: grid; gap: 8px; align-content: start; }
+.tool p { font-size: 15px; }
+.rules { display: grid; gap: 10px; margin: 0; padding-left: 20px; max-width: 70ch; }
+.note { border-left: 3px solid var(--yellow); padding: 4px 0 4px 14px; font-size: 15px; color: var(--muted); max-width: 70ch; }
+footer { font-size: 14px; color: var(--muted); border-top: 1px solid var(--line); padding-top: 18px; }
+@media (max-width: 520px) { .demos { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px 12px; } .phone { border-width: 4px; border-radius: 16px; } }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1 class="brand">reels<span>kit</span></h1>
+    <p class="lede">Монтаж вертикальных роликов для Reels и Shorts силами ИИ-агента: ему говоришь, что нужно, он режет по словам, ставит субтитры, звуки и переходы.
+      <small>Работает на Mac с M1–M4. Агент — Codex или Claude Code. Всё на ffmpeg и Whisper, расшифровка локальная и бесплатная.</small></p>
+  </header>
+
+  <section id="install">
+    <h2>Установка</h2>
+    <ol class="steps">
+      <li><div>
+        <h3>Скачать проект и запустить установщик</h3>
+        <div class="cmd"><button class="copy" type="button">Копировать</button><pre>git clone git@github.com:vito2005/reels-kit.git ~/reels-kit
+cd ~/reels-kit && ./install.sh</pre></div>
+        <p class="muted">Поставит ffmpeg, yt-dlp, Whisper и Python-окружение. Около 10 минут, если попросит — ввести пароль от мака.</p>
+      </div></li>
+      <li><div>
+        <h3>Добавить тяжёлое, если нужно</h3>
+        <div class="cmd"><button class="copy" type="button">Копировать</button><pre>./install.sh sfx denoise   # поиск звуков, шумодав
+./install.sh face          # замена лица
+./install.sh voice         # голос персонажа</pre></div>
+      </div></li>
+      <li><div>
+        <h3>Открыть папку в Codex</h3>
+        <p>Codex сам прочитает <code>AGENTS.md</code>: там все команды и правила монтажа. Объяснять ему ничего не нужно.</p>
+      </div></li>
+    </ol>
+  </section>
+
+  <section id="prompts">
+    <h2>Как просить</h2>
+    <p class="muted">Обычными словами. Видео можно указать путём или просто перетащить файл в окно Codex.</p>
+    <div class="prompts">
+      <div class="prompt">Вот видео ~/Downloads/IMG_1234.MOV. Сделай ролик до 60 секунд: выкинь паузы и повторы, субтитры по словам.</div>
+      <div class="prompt">Скачай этот рилс и сделай липсинк: звук из него, видео — мои дубли из папки clips/.</div>
+      <div class="prompt">Поставь вжух на каждую склейку и ба-дум-тсс после последней фразы.</div>
+      <div class="prompt">Смонтируй день по часам из этих восьми клипов под музыку, время на каждом кадре.</div>
+      <div class="prompt">В субтитрах «как у этот журнал» — исправь на «в этот журнал» и перешей.</div>
+    </div>
+    <p class="note">Готовый файл агент кладёт в папку ролика. Смотреть лучше с телефона: так видно, что субтитры не закрыты кнопками Reels.</p>
+  </section>
+
+  <section id="demos">
+    <h2>Что умеет</h2>
+    <p class="muted">Все примеры собраны этими инструментами. Звук включается кнопкой на видео.</p>
+    <div class="demos">
+      <figure>
+        <div class="phone"><video src="media/subs-d.mp4" poster="media/subs-d.jpg" controls playsinline preload="none"></video></div>
+        <figcaption><span class="tag">captions · стиль d</span><h3>Субтитры по словам</h3><p>Звучащее слово в плашке, блок в две строки, разрывы по склейкам.</p></figcaption>
+      </figure>
+      <figure>
+        <div class="phone"><video src="media/subs-g.mp4" poster="media/subs-g.jpg" controls playsinline preload="none"></video></div>
+        <figcaption><span class="tag">стиль g · sfx</span><h3>Диалог и звук на панч</h3><p>Цвет плашки — кто говорит. После последней реплики — ба-дум-тсс.</p></figcaption>
+      </figure>
+      <figure>
+        <div class="phone"><video src="media/subs-h.mp4" poster="media/subs-h.jpg" controls playsinline preload="none"></video></div>
+        <figcaption><span class="tag">стиль h</span><h3>Слово-панч влетает</h3><p>Капс, рукописные вставки и жёлтое крупное слово с анимацией.</p></figcaption>
+      </figure>
+      <figure>
+        <div class="phone"><video src="media/cuts-hard.mp4" poster="media/cuts-hard.jpg" controls playsinline preload="none"></video></div>
+        <figcaption><span class="tag">bed · cards clock</span><h3>Склейки в долю музыки</h3><p>Подложка под весь ролик, кадр ровно в три доли, время дня на кадре.</p></figcaption>
+      </figure>
+      <figure>
+        <div class="phone"><video src="media/cuts-whip.mp4" poster="media/cuts-whip.jpg" controls playsinline preload="none"></video></div>
+        <figcaption><span class="tag">whip.py · sfx</span><h3>Свайп-переходы</h3><p>Тот же монтаж, но кадр уезжает вбок со смазом, на стыке вжух.</p></figcaption>
+      </figure>
+      <figure>
+        <div class="phone"><video src="media/zoom.mp4" poster="media/zoom.jpg" controls playsinline preload="none"></video></div>
+        <figcaption><span class="tag">zoom · track</span><h3>Укрупнение и слежение</h3><p>Кроп на деталь и окно, которое едет за объектом. Для лиц точки находит macOS.</p></figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="styles" class="styles">
+    <h2>Стили субтитров</h2>
+    <img src="media/styles.jpg" alt="Одна и та же фраза в семи стилях субтитров: d, a, b, c, e, g, h" width="1400" height="1244">
+    <dl>
+      <dt>d</dt><dd>по умолчанию: Futura, слово в терракотовой плашке</dd>
+      <dt>a, b</dt><dd>цветное слово без плашки</dd>
+      <dt>c</dt><dd>плашка на Arial Black</dd>
+      <dt>e</dt><dd>капс и рукописный, жёлтое слово бежит</dd>
+      <dt>g</dt><dd>плашки по говорящему, для диалогов</dd>
+      <dt>h</dt><dd>белый капс и жёлтое слово-панч, влетает слева</dd>
+    </dl>
+    <p class="muted">В папке <code>tools/fonts</code> 25 шрифтов с кириллицей, любой можно подставить в стиль.</p>
+  </section>
+
+  <section id="more">
+    <h2>Ещё в комплекте</h2>
+    <div class="tools">
+      <div class="tool"><span class="tag">yt-dlp</span><h3>Скачать чужой ролик</h3><p>Рилсы, Shorts, TikTok в оригинальном качестве, без логина. Звук — под свой липсинк.</p></div>
+      <div class="tool"><span class="tag">sfx/ · 159 звуков</span><h3>Мем-звуки с поиском</h3><p>Вжухи, удары, провал, смех зала. Поиск по описанию: «cartoon boing» находит нужный.</p></div>
+      <div class="tool"><span class="tag">denoise</span><h3>Шумодав и выравнивание</h3><p>Для записей, где телефон лежит далеко: убирает шум, тихие голоса подтягивает к громким.</p></div>
+      <div class="tool"><span class="tag">pitch.py</span><h3>Кто говорит</h3><p>По высоте голоса отличает ребёнка от взрослого — для субтитров с разными говорящими.</p></div>
+      <div class="tool"><span class="tag">FaceFusion</span><h3>Замена лица</h3><p>Своё лицо на героя сцены из фильма по 4–6 фото. Около 5 кадров в секунду на M4.</p></div>
+      <div class="tool"><span class="tag">Demucs · F5-TTS</span><h3>Голос персонажа</h3><p>Отделить голос от музыки и произнести новую фразу голосом героя по 10 секундам образца.</p></div>
+      <div class="tool"><span class="tag">HDR → SDR</span><h3>Цвета с айфона</h3><p>Клипы iPhone в HDR не выцветают при перекодировании, это делается само.</p></div>
+      <div class="tool"><span class="tag">−14 LUFS</span><h3>Громкость как в ленте</h3><p>Каждый ролик приводится к уровню Instagram и YouTube, записи с телефона не тонут.</p></div>
+    </div>
+  </section>
+
+  <section id="rules">
+    <h2>Что делает ролик смотрибельным</h2>
+    <ul class="rules">
+      <li>Первые 2 секунды объясняют, о чём ролик. Говорящая голова без картинки дольше 10 секунд в начале — теряем зрителя.</li>
+      <li>Резать по расшифровке, не на глаз: иначе на склейках откусываются слова.</li>
+      <li>Скетч заканчивается на панчлайне. Всё, что после, — лишнее.</li>
+      <li>Порядок реплик в диалоге не менять. Для хука лучше начать позже или сжать паузы.</li>
+      <li>Звуковой эффект — только на акценте. Если он везде, отвлекает.</li>
+      <li>До 60 секунд, а если выходит 90, пусть это будет оправдано.</li>
+    </ul>
+  </section>
+
+  <footer>Код — MIT. Шрифты — SIL OFL. Звуки собраны из интернета, их лицензии неизвестны: для коммерческих роликов лучше заменить на свои.</footer>
+</div>
+
+<script>
+document.querySelectorAll('.copy').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var pre = b.parentElement.querySelector('pre');
+    var text = pre.textContent.split('\n').map(function (l) { return l.replace(/\s+#.*$/, ''); }).join('\n');
+    var done = function () { b.textContent = 'Скопировано'; setTimeout(function () { b.textContent = 'Копировать'; }, 1600); };
+    try {
+      navigator.clipboard.writeText(text).then(done, function () { select(pre); });
+    } catch (e) { select(pre); }
+  });
+});
+function select(el) { var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); }
+document.querySelectorAll('video').forEach(function (v) {
+  v.addEventListener('play', function () { document.querySelectorAll('video').forEach(function (o) { if (o !== v) o.pause(); }); });
+});
+</script>
+</body>
+</html>

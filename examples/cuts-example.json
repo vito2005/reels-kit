@@ -1,0 +1,15 @@
+{
+  "note": "Демо-диалог из docs/media/subs-g.mp4: своё видео, звук из отдельного файла, плашки по говорящему, ба-дум-тсс после панча",
+  "segments": [
+    {"src": "clips/sea.MOV", "start": 5.0, "end": 6.68,
+     "audio": {"src": "clips/dialog.wav", "start": 0, "end": 1.68}, "note": "— Ты опять снимаешь море?"},
+    {"src": "clips/sup.MOV", "start": 6.0, "end": 8.48, "speaker": "b",
+     "audio": {"src": "clips/dialog.wav", "start": 1.68, "end": 4.16}, "note": "— Это не море. Это контент."},
+    {"src": "clips/sunset.MOV", "start": 5.0, "end": 7.74,
+     "audio": {"src": "clips/dialog.wav", "start": 4.16, "end": 5.3},
+     "sfx": [{"src": "sfx/memes/Memes-Comedy/SFX_Badum-Tssss.mp3", "at": 0.9, "gain": -2}],
+     "note": "— Понятно. Видео длиннее звука — остаток добьётся тишиной, поверх ба-дум-тсс"}
+  ],
+  "match_loudness": false,
+  "captions": {"breaks": [["это", "контент"]]}
+}
