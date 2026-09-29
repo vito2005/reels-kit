@@ -27,7 +27,7 @@ cd ~/reels-kit && ./install.sh
 
 - `tools/edit.py` — расшифровка, нарезка по `cuts.json`, громкость, субтитры, HDR→SDR
 - `tools/cards.py`, `assmerge.py` — подписи, время на кадре, склейка субтитров
-- `tools/whip.py` — свайп-переходы; `pitch.py` — кто говорит; `sfxtag.py` — поиск звуков
+- `tools/whip.py` — свайп-переходы; `blurtrack.py` — размыть лишнее (номер, чужое лицо, экран) пятном, которое едет за предметом; `pitch.py` — кто говорит; `sfxtag.py` — поиск звуков
 - `tools/face/`, `tools/voice/` — замена лица (FaceFusion) и голос персонажа (F5-TTS)
 - `tools/fonts/` — 25 шрифтов с кириллицей; `sfx/` — 159 мем-звуков с каталогом
 

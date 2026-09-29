@@ -35,6 +35,8 @@ FaceFusion в `~/tools/facefusion` и F5-TTS с Demucs в `~/tools/f5tts`. Ес�
 .venv/bin/python tools/assmerge.py out.ass cap.ass cards.ass           # склеить субтитры и карточки
 .venv/bin/python tools/sfxtag.py search sfx/ "whoosh transition" 5     # найти звук по описанию (CLAP)
 .venv/bin/python tools/whip.py in.mp4 out.mp4 52 96 144 [--dir left|up|alt]   # свайп-переходы на склейках
+.venv/bin/python tools/blurtrack.py check in.mp4 spec.json check.jpg   # где будет размытие — контуры на кадрах
+.venv/bin/python tools/blurtrack.py render in.mp4 spec.json out.mp4   # размыть лишнее: пятно едет по ключевым точкам
 ~/.local/bin/yt-dlp -f 'bv*+ba/b' --merge-output-format mp4 -o "origin/reel.%(ext)s" <url>   # скачать рилс
 ```
 
@@ -53,7 +55,10 @@ FaceFusion в `~/tools/facefusion` и F5-TTS с Demucs в `~/tools/f5tts`. Ес�
    разорванные слова — в `merge`. Смотреть и список групп: склейки не по смыслу («Кого хотите мне без | разницы»)
    лечатся `breaks`, вспышки из одного слова — `joins`. Потом `burn`.
 5. **Финальный `sheet`** — субтитр на каждом кадре на месте, ничего не наехало.
-6. **Личное на экране.** Записи экрана и фон просмотреть: нет ли того, что не для публикации.
+6. **Личное на экране.** Записи экрана и фон просмотреть: нет ли того, что не для публикации. Закрывать —
+   `tools/blurtrack.py` (формат spec.json — в шапке файла): сперва `check` (контуры пятен на кадрах в ключевые моменты), потом
+   `render`. Точки ставить через 0.2–0.3 с, где предмет двигается. Для лиц точки даёт `edit.py facetrack` (`"coords": "frac"`).
+   Размывать готовый рендер до `burn` (субтитры останутся резкими) или окно исходника; HDR с айфона остаётся HDR.
 
 До минуты из 3–4 минут исходника выходит за 10–15 итераций. Это нормально.
 
